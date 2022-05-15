@@ -227,9 +227,3 @@ class Client():
     def ntbr_nome(self, nome):
         re = requests.get(f"{self.api}/NTBR/nome/{nome}", auth=BearerAuth(self.token)); dataj = re.json()
         return dataj
-    
-se = Client()
-
-se.key("APP_941e08d6b4f7fbb0f7e474aa327d1b70")
-print("Chave incluida com sucesso")
-print(f"{se.bigplus_cpf('61408960370')}")
