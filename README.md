@@ -33,5 +33,5 @@ Seguindo esse exemplo, você já pode retornar dados, em json como:
 
 ```python3
 
-client.searchcpf("{cpf da pessoa}")
+client.searchlock_cpf("{cpf da pessoa}")
 ```
